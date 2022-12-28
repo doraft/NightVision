@@ -1,0 +1,7 @@
+{
+  "command": "nightvision",
+  "description": "give or remove nightvision effects",
+  "prefix": "§l§b[NightVision]§r§f ",
+  "giveMessage": "Received NightVision effect",
+  "removeMessage": "Removed NightVision effect"
+}
