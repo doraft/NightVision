@@ -15,5 +15,5 @@ A PocketMine-MP Plugin Give/Remove NightVision Effect
 - [X] English
 - [X] Korean
 
-### Support API
+### Supported API
 - [X] API 5.0.0
