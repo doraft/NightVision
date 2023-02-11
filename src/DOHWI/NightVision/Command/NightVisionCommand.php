@@ -20,10 +20,10 @@ final class NightVisionCommand extends Command
 
     public function __construct()
     {
-        parent::__construct(NightVision::$config->get("command"), NightVision::$config->get("description"));
-        $prefix = NightVision::$config->get("prefix");
-        $this->giveMessage = $prefix.NightVision::$config->get("giveMessage");
-        $this->removeMessage = $prefix.NightVision::$config->get("removeMessage");
+        parent::__construct(NightVision::$config->getNested("COMMANDS.NIGHT_VISION.NAME"), NightVision::$config->getNested("COMMANDS.NIGHT_VISION.DESCRIPTION"));
+        $prefix = NightVision::$config->get("MESSAGE_PREFIX");
+        $this->giveMessage = $prefix.NightVision::$config->getNested("MESSAGES.GIVE_EFFECT");
+        $this->removeMessage = $prefix.NightVision::$config->getNested("MESSAGES.REMOVE_EFFECT");
     }
 
     public function execute(CommandSender $sender, string $commandLabel, array $args): void

@@ -1,7 +1,13 @@
 {
-  "command": "야간투시",
-  "description": "야간투시를 지급받거나 제거합니다",
-  "prefix": "§l§b[야간투시]§r§f ",
-  "giveMessage": "야간투시 효과를 지급받았습니다",
-  "removeMessage": "야간투시 효과가 제거되었습니다"
+  "MESSAGE_PREFIX": "§l§b[야간투시]§r§f ",
+  "COMMANDS": {
+    "NIGHT_VISION": {
+      "NAME": "야간투시",
+      "DESCRIPTION": "야간투시를 지급받거나 제거합니다"
+    }
+  },
+  "MESSAGES": {
+    "GIVE_EFFECT": "야간투시 효과를 지급받았습니다",
+    "REMOVE_EFFECT": "야간투시 효과가 제거되었습니다"
+  }
 }

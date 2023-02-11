@@ -1,7 +1,13 @@
 {
-  "command": "nightvision",
-  "description": "give or remove nightvision effects",
-  "prefix": "§l§b[NightVision]§r§f ",
-  "giveMessage": "Received NightVision effect",
-  "removeMessage": "Removed NightVision effect"
+  "MESSAGE_PREFIX": "§l§b[NightVision]§r§f ",
+  "COMMANDS": {
+    "NIGHT_VISION": {
+      "NAME": "nightvision",
+      "DESCRIPTION": "give or remove nightvision effects"
+    }
+  },
+  "MESSAGES": {
+    "GIVE_EFFECT": "Received NightVision effect",
+    "REMOVE_EFFECT": "Removed NightVision effect"
+  }
 }
